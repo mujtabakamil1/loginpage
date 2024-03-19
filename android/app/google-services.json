@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791100641981",
+    "project_id": "game-3c5fb",
+    "storage_bucket": "game-3c5fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791100641981:android:f7e5ddc34af592a865ddd4",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpqromsX7Bxr7K6r5pOz117C78nUx43ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

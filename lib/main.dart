@@ -1,17 +1,30 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+import 'firebase_options.dart';
+// import 'package:loginpage/firebase_options.dart';
+
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
+
+  
   @override
   Widget build(BuildContext context) {
+
+    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter UI'),
+          title: Text('MY UI'),
         ),
         body: Center(
           child: Column(
