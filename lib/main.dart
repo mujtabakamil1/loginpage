@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 19.0),
               ElevatedButton(
                 onPressed: () {
                   // Add your signup button functionality here
